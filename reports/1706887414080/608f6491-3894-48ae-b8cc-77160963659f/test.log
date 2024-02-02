@@ -1,0 +1,41 @@
+[2024-02-02 03:23:43] [1] [WARN] Reporting disabled: using no op test run registrar
+[2024-02-02 03:23:43] [1] [INFO] TEST [carina-api-testing - verifyPostProductTest] STARTED at [12:23:43 2024-02-02]
+[2024-02-02 03:23:43] [1] [INFO] Base properties loaded: api/products/product.properties
+[2024-02-02 03:23:44] [1] [INFO] Request method:	POST
+Request URI:	https://dummyjson.com/products/add
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:
+{
+    "title": "fnmpklkl"
+}
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-ratelimit-limit: 100
+x-ratelimit-remaining: 97
+date: Fri, 02 Feb 2024 15:23:44 GMT
+x-ratelimit-reset: 1706887426
+content-type: application/json; charset=utf-8
+content-length: 29
+etag: W/"1d-MzYL3nRs5w3kDHfFT0xVl+1vbiY"
+vary: Accept-Encoding
+server: railway
+
+{
+    "id": 101,
+    "title": "fnmpklkl"
+}
+
+[2024-02-02 03:23:44] [1] [INFO] TEST [carina-api-testing - verifyPostProductTest] PASSED at [12:23:44 2024-02-02]

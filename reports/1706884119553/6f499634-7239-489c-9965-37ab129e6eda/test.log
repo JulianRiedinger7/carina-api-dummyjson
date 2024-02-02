@@ -1,0 +1,53 @@
+[2024-02-02 02:28:45] [1] [WARN] Reporting disabled: using no op test run registrar
+[2024-02-02 02:28:45] [1] [INFO] TEST [carina-api-testing - verifyGetProductByNumberTest] STARTED at [11:28:45 2024-02-02]
+[2024-02-02 02:28:45] [1] [INFO] Request method:	GET
+Request URI:	https://dummyjson.com/products/2
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:			<none>
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-ratelimit-limit: 100
+x-ratelimit-remaining: 98
+date: Fri, 02 Feb 2024 14:28:46 GMT
+x-ratelimit-reset: 1706884136
+content-type: application/json; charset=utf-8
+content-length: 544
+etag: W/"220-4vgIRUODVSHu9AP6yOFklhn4L8c"
+vary: Accept-Encoding
+server: railway
+
+{
+    "id": 2,
+    "title": "iPhone X",
+    "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
+    "price": 899,
+    "discountPercentage": 17.94,
+    "rating": 4.44,
+    "stock": 34,
+    "brand": "Apple",
+    "category": "smartphones",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/2/thumbnail.jpg",
+    "images": [
+        "https://cdn.dummyjson.com/product-images/2/1.jpg",
+        "https://cdn.dummyjson.com/product-images/2/2.jpg",
+        "https://cdn.dummyjson.com/product-images/2/3.jpg",
+        "https://cdn.dummyjson.com/product-images/2/thumbnail.jpg"
+    ]
+}
+
+[2024-02-02 02:28:46] [1] [INFO] JSON schema of version below or equal to draft-04 was detected
+[2024-02-02 02:28:46] [1] [INFO] Validation against Json schema successfully passed
+[2024-02-02 02:28:46] [1] [INFO] TEST [carina-api-testing - verifyGetProductByNumberTest] PASSED at [11:28:46 2024-02-02]
