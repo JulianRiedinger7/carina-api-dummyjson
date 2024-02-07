@@ -1,0 +1,18 @@
+[2024-02-07 03:51:10] [1] [INFO] 
+============= Basic configuration =============
+env=PROD
+=========== WebDriver configuration ===========
+browser=chrome
+selenium_url=http://localhost:4444/wd/hub
+-------------- Driver capabilities ------------
+===============================================
+
+[2024-02-07 03:51:10] [1] [WARN] Reporting disabled: using no op test run registrar
+[2024-02-07 03:51:13] [1] [INFO] [TestNG] Running:
+  C:\Users\julia\AppData\Local\JetBrains\IdeaIC2023.2\temp-testng-customsuite.xml
+
+[2024-02-07 03:51:13] [1] [INFO] Set thread-count=1
+[2024-02-07 03:51:13] [1] [INFO] Set data-provider-thread-count=1
+[2024-02-07 03:51:13] [1] [INFO] CARINA_CORE_VERSION: 1.2.6
+[2024-02-07 03:51:31] [1] [INFO] INFO: '**************** Test execution summary ****************'.
+[2024-02-07 03:51:31] [1] [INFO] RESULT #1: TEST [carina-api-testing - verifyShortIsVisibleAndCannotBeLikedTest] PASS [log=file://C:\Develop\solvd-course\carina-api-testing\reports\1707277870676/4c715d2c-a2d3-4fb3-874c-c199f8798560/test.log]

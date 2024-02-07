@@ -1,3 +1,0 @@
-[2024-02-02 02:11:09] [1] [WARN] Reporting disabled: using no op test run registrar
-[2024-02-02 02:11:09] [1] [INFO] TEST [carina-api-testing - verifyDeleteProductTest] STARTED at [11:11:09 2024-02-02]
-[2024-02-02 02:11:10] [1] [INFO] TEST [carina-api-testing - verifyDeleteProductTest] PASSED at [11:11:10 2024-02-02]

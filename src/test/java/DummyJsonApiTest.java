@@ -1,3 +1,7 @@
+import api.DeleteProduct;
+import api.GetProduct;
+import api.PostProduct;
+import api.PutProduct;
 import com.zebrunner.carina.core.IAbstractTest;
 import com.zebrunner.carina.core.registrar.ownership.MethodOwner;
 import io.restassured.response.Response;
