@@ -1,0 +1,8 @@
+[2024-02-07 06:48:15] [23] [WARN] Reporting disabled: using no op test run registrar
+[2024-02-07 06:48:15] [23] [INFO] TEST [Searching Test - verifyCorrectVideoTitleWhenSearchingTest [L01]] STARTED at [15:48:15 2024-02-07]
+[2024-02-07 06:48:15] [23] [INFO] Starting driver session...
+[2024-02-07 06:48:19] [23] [INFO] Driver session started.
+[2024-02-07 06:48:20] [23] [INFO] INFO: opening url 'https://www.youtube.com'
+[2024-02-07 06:48:42] [23] [INFO] Keys 'testing' are sent to element 'searchInput'.
+[2024-02-07 06:48:43] [23] [INFO] Element 'searchBtn' is clicked.
+[2024-02-07 06:48:48] [23] [INFO] TEST [Searching Test - verifyCorrectVideoTitleWhenSearchingTest [L01]] PASSED at [15:48:48 2024-02-07]

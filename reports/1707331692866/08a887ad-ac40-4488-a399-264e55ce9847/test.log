@@ -1,0 +1,9 @@
+[2024-02-07 06:48:15] [25] [WARN] Reporting disabled: using no op test run registrar
+[2024-02-07 06:48:15] [25] [INFO] TEST [Youtube shorts section Test - verifyShortIsVisibleAndCannotBeLikedTest] STARTED at [15:48:15 2024-02-07]
+[2024-02-07 06:48:15] [25] [INFO] Starting driver session...
+[2024-02-07 06:48:19] [25] [INFO] Driver session started.
+[2024-02-07 06:48:20] [25] [INFO] INFO: opening url 'https://www.youtube.com'
+[2024-02-07 06:48:42] [25] [INFO] Element 'shortsLink' is clicked.
+[2024-02-07 06:48:46] [25] [INFO] returned first but found 14 elements by locator: By.cssSelector: ytd-toggle-button-renderer#like-button
+[2024-02-07 06:48:47] [25] [INFO] Element 'likeBtn' is clicked.
+[2024-02-07 06:48:47] [25] [INFO] TEST [Youtube shorts section Test - verifyShortIsVisibleAndCannotBeLikedTest] PASSED at [15:48:47 2024-02-07]

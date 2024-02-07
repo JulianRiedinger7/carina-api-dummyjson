@@ -1,0 +1,8 @@
+[2024-02-07 05:45:40] [1] [WARN] Reporting disabled: using no op test run registrar
+[2024-02-07 05:45:40] [1] [INFO] TEST [Surefire test - verifyCorrectVideoTitleWhenSearchingTest [L02]] STARTED at [14:45:40 2024-02-07]
+[2024-02-07 05:45:40] [1] [INFO] Starting driver session...
+[2024-02-07 05:45:42] [1] [INFO] Driver session started.
+[2024-02-07 05:45:42] [1] [INFO] INFO: opening url 'https://www.youtube.com'
+[2024-02-07 05:45:46] [1] [INFO] Keys 'selenium' are sent to element 'searchInput'.
+[2024-02-07 05:45:47] [1] [INFO] Element 'searchBtn' is clicked.
+[2024-02-07 05:45:49] [1] [INFO] TEST [Surefire test - verifyCorrectVideoTitleWhenSearchingTest [L02]] PASSED at [14:45:49 2024-02-07]

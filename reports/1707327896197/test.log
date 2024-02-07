@@ -1,0 +1,23 @@
+[2024-02-07 05:44:56] [1] [INFO] 
+============= Basic configuration =============
+env=PROD
+=========== WebDriver configuration ===========
+browser=chrome
+selenium_url=http://localhost:4444/wd/hub
+-------------- Driver capabilities ------------
+===============================================
+
+[2024-02-07 05:44:56] [1] [WARN] Reporting disabled: using no op test run registrar
+[2024-02-07 05:44:58] [1] [INFO] Set thread-count=1
+[2024-02-07 05:44:58] [1] [INFO] Set data-provider-thread-count=1
+[2024-02-07 05:44:58] [1] [INFO] CARINA_CORE_VERSION: 1.2.6
+[2024-02-07 05:46:10] [1] [INFO] INFO: '**************** Test execution summary ****************'.
+[2024-02-07 05:46:10] [1] [INFO] RESULT #1: TEST [Surefire test - verifyDeleteProductTest] PASS [log=file://C:\Develop\solvd-course\carina-api-testing\reports\1707327896197/d94cee21-5cc0-4ad7-aaef-5e90d0dc76f0/test.log]
+[2024-02-07 05:46:10] [1] [INFO] RESULT #2: TEST [Surefire test - verifyGetProductByNumberTest] PASS [log=file://C:\Develop\solvd-course\carina-api-testing\reports\1707327896197/5fde3668-400d-4b3f-8040-9075b6053888/test.log]
+[2024-02-07 05:46:10] [1] [INFO] RESULT #3: TEST [Surefire test - verifyPostProductTest] PASS [log=file://C:\Develop\solvd-course\carina-api-testing\reports\1707327896197/cf794697-7703-4a50-88cc-9f8df883d648/test.log]
+[2024-02-07 05:46:10] [1] [INFO] RESULT #4: TEST [Surefire test - verifyPutProductTest] PASS [log=file://C:\Develop\solvd-course\carina-api-testing\reports\1707327896197/c2ccf0ed-67dd-4a83-bc62-52f497ee8653/test.log]
+[2024-02-07 05:46:10] [1] [INFO] RESULT #5: TEST [Surefire test - verifyAutoPlayVideoTest] PASS [log=file://C:\Develop\solvd-course\carina-api-testing\reports\1707327896197/a2a73796-4e0b-400d-84e5-348c0467d9ee/test.log]
+[2024-02-07 05:46:10] [1] [INFO] RESULT #6: TEST [Surefire test - verifyCorrectVideoTitleWhenSearchingTest [L01]] PASS [log=file://C:\Develop\solvd-course\carina-api-testing\reports\1707327896197/e231f761-bcdb-4cf8-a5f6-d9c44149d5a4/test.log]
+[2024-02-07 05:46:10] [1] [INFO] RESULT #7: TEST [Surefire test - verifyCorrectVideoTitleWhenSearchingTest [L02]] PASS [log=file://C:\Develop\solvd-course\carina-api-testing\reports\1707327896197/4ec7e1f1-4b0f-4b27-be9e-c66469542311/test.log]
+[2024-02-07 05:46:10] [1] [INFO] RESULT #8: TEST [Surefire test - verifyCorrectVideoTitleWhenSearchingTest [L03]] PASS [log=file://C:\Develop\solvd-course\carina-api-testing\reports\1707327896197/00686e5c-18b7-409b-a9ca-3463d4ab24b6/test.log]
+[2024-02-07 05:46:10] [1] [INFO] RESULT #9: TEST [Surefire test - verifyShortIsVisibleAndCannotBeLikedTest] PASS [log=file://C:\Develop\solvd-course\carina-api-testing\reports\1707327896197/947c2d3b-dee8-4cec-8770-c3f1d6b66f21/test.log]

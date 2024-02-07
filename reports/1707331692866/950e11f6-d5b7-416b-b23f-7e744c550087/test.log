@@ -1,0 +1,43 @@
+[2024-02-07 06:48:15] [24] [WARN] Reporting disabled: using no op test run registrar
+[2024-02-07 06:48:15] [24] [INFO] TEST [Video reproduction Test - verifyAutoPlayVideoTest] STARTED at [15:48:15 2024-02-07]
+[2024-02-07 06:48:15] [24] [INFO] Starting driver session...
+[2024-02-07 06:48:19] [24] [INFO] Driver session started.
+[2024-02-07 06:48:20] [24] [INFO] INFO: opening url 'https://www.youtube.com'
+[2024-02-07 06:48:35] [24] [ERROR] TEST [Video reproduction Test - verifyAutoPlayVideoTest] FAILED at [15:48:35 2024-02-07] - Index 0 out of bounds for length 0
+
+java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:248)
+java.base/java.util.Objects.checkIndex(Objects.java:359)
+java.base/java.util.ArrayList.get(ArrayList.java:427)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:564)
+com.zebrunner.carina.webdriver.locator.internal.LocatingListHandler.invoke(LocatingListHandler.java:97)
+com.sun.proxy.$Proxy81.get(Unknown Source)
+web.pages.HomePage.firstVideoLink(HomePage.java:42)
+web.pages.HomePage.clickFirstVideoLink(HomePage.java:50)
+YoutubeReproductionTest.verifyAutoPlayVideoTest(YoutubeReproductionTest.java:20)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:564)
+org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+org.testng.TestRunner.privateRun(TestRunner.java:819)
+org.testng.TestRunner.run(TestRunner.java:619)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+java.base/java.lang.Thread.run(Thread.java:832)

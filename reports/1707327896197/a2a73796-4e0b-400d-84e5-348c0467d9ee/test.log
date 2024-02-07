@@ -1,0 +1,8 @@
+[2024-02-07 05:45:14] [1] [WARN] Reporting disabled: using no op test run registrar
+[2024-02-07 05:45:14] [1] [INFO] TEST [Surefire test - verifyAutoPlayVideoTest] STARTED at [14:45:14 2024-02-07]
+[2024-02-07 05:45:14] [1] [INFO] Starting driver session...
+[2024-02-07 05:45:17] [1] [INFO] Driver session started.
+[2024-02-07 05:45:17] [1] [INFO] INFO: opening url 'https://www.youtube.com'
+[2024-02-07 05:45:26] [1] [INFO] Element 'videoLinks0' is clicked.
+[2024-02-07 05:45:29] [1] [INFO] returned first but found 2 elements by locator: By.xpath: //div[@id = 'player-container']//div[contains(@class, 'html5-video-player')][1]
+[2024-02-07 05:45:29] [1] [INFO] TEST [Surefire test - verifyAutoPlayVideoTest] PASSED at [14:45:29 2024-02-07]

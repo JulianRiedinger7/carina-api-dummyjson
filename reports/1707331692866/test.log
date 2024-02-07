@@ -1,0 +1,20 @@
+[2024-02-07 06:48:12] [1] [INFO] 
+============= Basic configuration =============
+env=PROD
+=========== WebDriver configuration ===========
+browser=chrome
+selenium_url=http://localhost:4444/wd/hub
+-------------- Driver capabilities ------------
+===============================================
+
+[2024-02-07 06:48:12] [1] [WARN] Reporting disabled: using no op test run registrar
+[2024-02-07 06:48:15] [1] [INFO] Use thread-count='3' from suite file.
+[2024-02-07 06:48:15] [1] [INFO] Set data-provider-thread-count=1
+[2024-02-07 06:48:15] [1] [INFO] CARINA_CORE_VERSION: 1.2.6
+[2024-02-07 06:48:48] [24] [ERROR] Unable to quit driver for 10 sec!
+[2024-02-07 06:49:12] [1] [INFO] INFO: '**************** Test execution summary ****************'.
+[2024-02-07 06:49:12] [1] [INFO] RESULT #1: TEST [Video reproduction Test - verifyAutoPlayVideoTest] FAIL [log=file://C:\Develop\solvd-course\carina-api-testing\reports\1707331692866/950e11f6-d5b7-416b-b23f-7e744c550087/test.log]
+[2024-02-07 06:49:12] [1] [INFO] RESULT #2: TEST [Youtube shorts section Test - verifyShortIsVisibleAndCannotBeLikedTest] PASS [log=file://C:\Develop\solvd-course\carina-api-testing\reports\1707331692866/08a887ad-ac40-4488-a399-264e55ce9847/test.log]
+[2024-02-07 06:49:12] [1] [INFO] RESULT #3: TEST [Searching Test - verifyCorrectVideoTitleWhenSearchingTest [L01]] PASS [log=file://C:\Develop\solvd-course\carina-api-testing\reports\1707331692866/3e274a57-747b-46d4-a972-a29d9d6c53d3/test.log]
+[2024-02-07 06:49:12] [1] [INFO] RESULT #4: TEST [Searching Test - verifyCorrectVideoTitleWhenSearchingTest [L02]] PASS [log=file://C:\Develop\solvd-course\carina-api-testing\reports\1707331692866/485c5d50-f53f-47a8-b455-af9ee2f809e4/test.log]
+[2024-02-07 06:49:12] [1] [INFO] RESULT #5: TEST [Searching Test - verifyCorrectVideoTitleWhenSearchingTest [L03]] PASS [log=file://C:\Develop\solvd-course\carina-api-testing\reports\1707331692866/04901e85-7a30-4d9d-8182-d36d1b478c90/test.log]

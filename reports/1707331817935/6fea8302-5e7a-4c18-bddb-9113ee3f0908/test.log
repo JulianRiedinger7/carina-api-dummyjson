@@ -1,0 +1,8 @@
+[2024-02-07 06:50:20] [1] [WARN] Reporting disabled: using no op test run registrar
+[2024-02-07 06:50:20] [1] [INFO] TEST [carina-api-testing - verifyAutoPlayVideoTest] STARTED at [15:50:20 2024-02-07]
+[2024-02-07 06:50:20] [1] [INFO] Starting driver session...
+[2024-02-07 06:50:22] [1] [INFO] Driver session started.
+[2024-02-07 06:50:23] [1] [INFO] INFO: opening url 'https://www.youtube.com'
+[2024-02-07 06:50:30] [1] [INFO] Element 'videoLinks0' is clicked.
+[2024-02-07 06:50:32] [1] [INFO] returned first but found 2 elements by locator: By.xpath: //div[@id = 'player-container']//div[contains(@class, 'html5-video-player')][1]
+[2024-02-07 06:50:32] [1] [INFO] TEST [carina-api-testing - verifyAutoPlayVideoTest] PASSED at [15:50:32 2024-02-07]
