@@ -18,7 +18,6 @@ public class YoutubeShortsTest implements IAbstractTest {
     @Test
     public void verifyShortIsVisibleAndCannotBeLikedTest() {
         WebDriver driver = getDriver();
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
         SoftAssert softAssert = new SoftAssert();
         HomePage homePage = new HomePage(driver);
 
@@ -29,16 +28,8 @@ public class YoutubeShortsTest implements IAbstractTest {
         softAssert.assertTrue(sidebar.isUIObjectPresent(2), "Side bar was not found");
 
         ShortsPage shortsPage = sidebar.clickShortsLink();
-        wait.until(new ExpectedCondition<Boolean>() {
-            @Override
-            public Boolean apply(WebDriver driver) {
-                return shortsPage.getShortVideosSize() > 0;
-            }
-        });
-
-        softAssert.assertTrue(driver.getCurrentUrl().contains("shorts"), "The url does not contain shorts keyword");
-
         ShortVideo shortVideo = shortsPage.getFirstShortVideo();
+        softAssert.assertTrue(driver.getCurrentUrl().contains("shorts"), "The url does not contain shorts keyword");
         softAssert.assertTrue(shortVideo.isPlayerVisible(), "The short video player is not visible");
 
         shortVideo.clickLikeBtn();

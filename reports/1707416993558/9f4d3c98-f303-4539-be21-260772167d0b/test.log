@@ -1,0 +1,9 @@
+[2024-02-08 06:29:56] [1] [WARN] Reporting disabled: using no op test run registrar
+[2024-02-08 06:29:56] [1] [INFO] TEST [carina-api-testing - verifyShortIsVisibleAndCannotBeLikedTest] STARTED at [15:29:56 2024-02-08]
+[2024-02-08 06:29:56] [1] [INFO] Starting driver session...
+[2024-02-08 06:29:58] [1] [INFO] Driver session started.
+[2024-02-08 06:29:59] [1] [INFO] INFO: opening url 'https://www.youtube.com'
+[2024-02-08 06:30:05] [1] [INFO] Element 'shortsLink' is clicked.
+[2024-02-08 06:30:08] [1] [INFO] returned first but found 13 elements by locator: By.cssSelector: ytd-toggle-button-renderer#like-button
+[2024-02-08 06:30:08] [1] [INFO] Element 'likeBtn' is clicked.
+[2024-02-08 06:30:08] [1] [INFO] TEST [carina-api-testing - verifyShortIsVisibleAndCannotBeLikedTest] PASSED at [15:30:08 2024-02-08]

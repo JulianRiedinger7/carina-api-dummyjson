@@ -4,7 +4,10 @@ import com.zebrunner.carina.webdriver.decorator.ExtendedWebElement;
 import com.zebrunner.carina.webdriver.gui.AbstractPage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.time.Duration;
 import java.util.List;
 
 public class SearchResultsPage extends AbstractPage {
@@ -21,6 +24,13 @@ public class SearchResultsPage extends AbstractPage {
     }
 
     private String getFirstVideoTitle() {
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
+        wait.until(new ExpectedCondition<Boolean>() {
+            @Override
+            public Boolean apply(WebDriver driver) {
+                return getVideoTitlesSize() > 0;
+            }
+        });
         if (videoTitles.isEmpty()) {
             return "No video titles found";
         } else {

@@ -26,7 +26,6 @@ public class YoutubeSearchTest implements IAbstractTest {
     @Test(dataProvider = "Search keywords")
     public void verifyCorrectVideoTitleWhenSearchingTest(String keyword) {
         WebDriver driver = getDriver();
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
         SoftAssert softAssert = new SoftAssert();
         HomePage homePage = new HomePage(driver);
 
@@ -41,13 +40,6 @@ public class YoutubeSearchTest implements IAbstractTest {
 
         softAssert.assertTrue(driver.getCurrentUrl().contains(keyword),
                 String.format("The url does not contain '%s' search criteria", keyword));
-
-        wait.until(new ExpectedCondition<Boolean>() {
-            @Override
-            public Boolean apply(WebDriver driver) {
-                return searchResultsPage.getVideoTitlesSize() > 0;
-            }
-        });
 
         Assert.assertTrue(searchResultsPage.firstVideoTitleContains(keyword),
                 String.format("The video title does not contain '%s' search criteria", keyword));

@@ -1,0 +1,20 @@
+[2024-02-08 06:31:29] [1] [INFO] 
+============= Basic configuration =============
+env=PROD
+=========== WebDriver configuration ===========
+browser=chrome
+selenium_url=http://localhost:4444/wd/hub
+-------------- Driver capabilities ------------
+===============================================
+
+[2024-02-08 06:31:29] [1] [WARN] Reporting disabled: using no op test run registrar
+[2024-02-08 06:31:32] [1] [INFO] [TestNG] Running:
+  C:\Users\julia\AppData\Local\JetBrains\IdeaIC2023.2\temp-testng-customsuite.xml
+
+[2024-02-08 06:31:32] [1] [INFO] Set thread-count=1
+[2024-02-08 06:31:32] [1] [INFO] Set data-provider-thread-count=1
+[2024-02-08 06:31:32] [1] [INFO] CARINA_CORE_VERSION: 1.2.6
+[2024-02-08 06:32:11] [1] [INFO] INFO: '**************** Test execution summary ****************'.
+[2024-02-08 06:32:11] [1] [INFO] RESULT #1: TEST [carina-api-testing - verifyCorrectVideoTitleWhenSearchingTest [L01]] PASS [log=file://C:\Develop\solvd-course\carina-api-testing\reports\1707417089659/dd45524a-3809-4864-9ce1-cbd72046a989/test.log]
+[2024-02-08 06:32:11] [1] [INFO] RESULT #2: TEST [carina-api-testing - verifyCorrectVideoTitleWhenSearchingTest [L02]] PASS [log=file://C:\Develop\solvd-course\carina-api-testing\reports\1707417089659/145f8670-6c37-467a-af06-1da8e6d18069/test.log]
+[2024-02-08 06:32:11] [1] [INFO] RESULT #3: TEST [carina-api-testing - verifyCorrectVideoTitleWhenSearchingTest [L03]] PASS [log=file://C:\Develop\solvd-course\carina-api-testing\reports\1707417089659/8bb0312d-97da-4526-85c7-90c07b8d9ced/test.log]

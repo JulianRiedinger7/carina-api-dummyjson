@@ -4,8 +4,11 @@ import com.zebrunner.carina.webdriver.decorator.ExtendedWebElement;
 import com.zebrunner.carina.webdriver.gui.AbstractPage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import web.components.ShortVideo;
 
+import java.time.Duration;
 import java.util.List;
 
 public class ShortsPage extends AbstractPage {
@@ -29,6 +32,13 @@ public class ShortsPage extends AbstractPage {
     }
 
     public ShortVideo getFirstShortVideo() {
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
+        wait.until(new ExpectedCondition<Boolean>() {
+            @Override
+            public Boolean apply(WebDriver driver) {
+                return getShortVideosSize() > 0;
+            }
+        });
         return shortVideos.get(0);
     }
 

@@ -1,7 +1,0 @@
-[2024-02-07 05:17:22] [1] [WARN] Reporting disabled: using no op test run registrar
-[2024-02-07 05:17:22] [1] [INFO] TEST [carina-api-testing - verifyAutoPlayVideoTest] STARTED at [14:17:22 2024-02-07]
-[2024-02-07 05:17:22] [1] [INFO] Starting driver session...
-[2024-02-07 05:17:25] [1] [INFO] Driver session started.
-[2024-02-07 05:17:26] [1] [INFO] INFO: opening url 'https://www.youtube.com'
-[2024-02-07 05:17:35] [1] [INFO] Element 'videoLinks0' is clicked.
-[2024-02-07 05:17:37] [1] [INFO] TEST [carina-api-testing - verifyAutoPlayVideoTest] PASSED at [14:17:37 2024-02-07]
